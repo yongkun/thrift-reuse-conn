@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AsyncClient	src/gen-java/test/SendData.java	/^    public AsyncClient(org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.async.TAsyncClientManager clientManager, org.apache.thrift.transport.TNonblockingTransport transport) {$/;"	m	class:SendData.AsyncClient
+AsyncClient	src/gen-java/test/SendData.java	/^  public static class AsyncClient extends org.apache.thrift.async.TAsyncClient implements AsyncIface {$/;"	c	class:SendData
+AsyncIface	src/gen-java/test/SendData.java	/^  public interface AsyncIface {$/;"	i	class:SendData
+Client	src/gen-java/test/SendData.java	/^    public Client(org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot)$/;"	m	class:SendData.Client
+Client	src/gen-java/test/SendData.java	/^    public Client(org.apache.thrift.protocol.TProtocol prot)$/;"	m	class:SendData.Client
+Client	src/gen-java/test/SendData.java	/^  public static class Client implements org.apache.thrift.TServiceClient, Iface {$/;"	c	class:SendData
+DATA	src/gen-java/test/SendData.java	/^      DATA((short)1, "data");$/;"	e	enum:SendData.sendOne_args._Fields	file:
+DATA_FIELD_DESC	src/gen-java/test/SendData.java	/^    private static final org.apache.thrift.protocol.TField DATA_FIELD_DESC = new org.apache.thrift.protocol.TField("data", org.apache.thrift.protocol.TType.STRING, (short)1);$/;"	f	class:SendData.sendOne_args	file:
+DATA_LIST	src/gen-java/test/SendData.java	/^      DATA_LIST((short)1, "dataList");$/;"	e	enum:SendData.sendList_args._Fields	file:
+DATA_LIST_FIELD_DESC	src/gen-java/test/SendData.java	/^    private static final org.apache.thrift.protocol.TField DATA_LIST_FIELD_DESC = new org.apache.thrift.protocol.TField("dataList", org.apache.thrift.protocol.TType.LIST, (short)1);$/;"	f	class:SendData.sendList_args	file:
+Factory	src/gen-java/test/SendData.java	/^      public Factory() {}$/;"	m	class:SendData.Client.Factory
+Factory	src/gen-java/test/SendData.java	/^      public Factory(org.apache.thrift.async.TAsyncClientManager clientManager, org.apache.thrift.protocol.TProtocolFactory protocolFactory) {$/;"	m	class:SendData.AsyncClient.Factory
+Factory	src/gen-java/test/SendData.java	/^    public static class Factory implements org.apache.thrift.TServiceClientFactory<Client> {$/;"	c	class:SendData.Client
+Factory	src/gen-java/test/SendData.java	/^    public static class Factory implements org.apache.thrift.async.TAsyncClientFactory<AsyncClient> {$/;"	c	class:SendData.AsyncClient
+Iface	src/gen-java/test/SendData.java	/^  public interface Iface {$/;"	i	class:SendData
+JavaClient	src/java/JavaClient.java	/^public class JavaClient {$/;"	c
+JavaServer	src/java/JavaServer.java	/^public class JavaServer {$/;"	c
+LOG	src/java/JavaClient.java	/^  private static final Logger LOG = Logger.getLogger(JavaClient.class);$/;"	f	class:JavaClient	file:
+LOG	src/java/JavaServer.java	/^  private static final Logger LOG = Logger.getLogger(JavaServer.class);$/;"	f	class:JavaServer	file:
+LOG	src/java/MyDistributor.java	/^  private static final Logger LOG = Logger.getLogger(MyDistributor.class);$/;"	f	class:MyDistributor	file:
+LOG	src/java/SendDataHandler.java	/^  private static final Logger LOG = Logger.getLogger(SendDataHandler.class);$/;"	f	class:SendDataHandler	file:
+LOGGER	src/gen-java/test/SendData.java	/^    private static final Logger LOGGER = LoggerFactory.getLogger(Processor.class.getName());$/;"	f	class:SendData.Processor	file:
+MyDistributor	src/java/MyDistributor.java	/^	public MyDistributor() {$/;"	m	class:MyDistributor
+MyDistributor	src/java/MyDistributor.java	/^public class MyDistributor implements \/*Iface,*\/ Runnable {$/;"	c
+MyReceiver	src/java/MyReceiver.java	/^	public MyReceiver(TProtocol protocol, SendData.Iface sendData) {$/;"	m	class:MyReceiver
+MyReceiver	src/java/MyReceiver.java	/^public class MyReceiver implements Runnable {$/;"	c
+ProcessFunction	src/gen-java/test/SendData.java	/^    protected static interface ProcessFunction {$/;"	i	class:SendData.Processor
+Processor	src/gen-java/test/SendData.java	/^    public Processor(Iface iface)$/;"	m	class:SendData.Processor
+Processor	src/gen-java/test/SendData.java	/^  public static class Processor implements org.apache.thrift.TProcessor {$/;"	c	class:SendData
+STRUCT_DESC	src/gen-java/test/SendData.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("sendList_args");$/;"	f	class:SendData.sendList_args	file:
+STRUCT_DESC	src/gen-java/test/SendData.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("sendOne_args");$/;"	f	class:SendData.sendOne_args	file:
+SendData	src/gen-java/test/SendData.java	/^public class SendData {$/;"	c
+SendDataHandler	src/java/SendDataHandler.java	/^public class SendDataHandler implements SendData.Iface {$/;"	c
+_Fields	src/gen-java/test/SendData.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:SendData.sendList_args._Fields
+_Fields	src/gen-java/test/SendData.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:SendData.sendOne_args._Fields
+_Fields	src/gen-java/test/SendData.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:SendData.sendList_args
+_Fields	src/gen-java/test/SendData.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:SendData.sendOne_args
+_fieldName	src/gen-java/test/SendData.java	/^      private final String _fieldName;$/;"	f	class:SendData.sendList_args._Fields	file:
+_fieldName	src/gen-java/test/SendData.java	/^      private final String _fieldName;$/;"	f	class:SendData.sendOne_args._Fields	file:
+_thriftId	src/gen-java/test/SendData.java	/^      private final short _thriftId;$/;"	f	class:SendData.sendList_args._Fields	file:
+_thriftId	src/gen-java/test/SendData.java	/^      private final short _thriftId;$/;"	f	class:SendData.sendOne_args._Fields	file:
+addClient	src/java/MyDistributor.java	/^	public synchronized void addClient(SendData.Client client) {$/;"	m	class:MyDistributor
+addData	src/java/MyDistributor.java	/^  public synchronized void addData(String data) {$/;"	m	class:MyDistributor
+addList	src/java/MyDistributor.java	/^  public synchronized void addList(List<String> dataList) {$/;"	m	class:MyDistributor
+addToDataList	src/gen-java/test/SendData.java	/^    public void addToDataList(String elem) {$/;"	m	class:SendData.sendList_args
+batchCounter	src/java/MyDistributor.java	/^  private long batchCounter = 0;  $/;"	f	class:MyDistributor	file:
+byName	src/gen-java/test/SendData.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:SendData.sendList_args._Fields	file:
+byName	src/gen-java/test/SendData.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:SendData.sendOne_args._Fields	file:
+clear	src/gen-java/test/SendData.java	/^    public void clear() {$/;"	m	class:SendData.sendList_args
+clear	src/gen-java/test/SendData.java	/^    public void clear() {$/;"	m	class:SendData.sendOne_args
+clientManager	src/gen-java/test/SendData.java	/^      private org.apache.thrift.async.TAsyncClientManager clientManager;$/;"	f	class:SendData.AsyncClient.Factory	file:
+clients	src/java/MyDistributor.java	/^	private final List<SendData.Client> clients;$/;"	f	class:MyDistributor	file:
+compareTo	src/gen-java/test/SendData.java	/^    public int compareTo(sendList_args other) {$/;"	m	class:SendData.sendList_args
+compareTo	src/gen-java/test/SendData.java	/^    public int compareTo(sendOne_args other) {$/;"	m	class:SendData.sendOne_args
+counter	src/java/SendDataHandler.java	/^  private long counter = 0;  $/;"	f	class:SendDataHandler	file:
+data	src/gen-java/test/SendData.java	/^      private String data;$/;"	f	class:SendData.AsyncClient.sendOne_call	file:
+data	src/gen-java/test/SendData.java	/^    public String data;$/;"	f	class:SendData.sendOne_args
+dataDist	src/java/JavaServer.java	/^  public static MyDistributor dataDist = new MyDistributor();$/;"	f	class:JavaServer
+dataList	src/gen-java/test/SendData.java	/^      private List<String> dataList;$/;"	f	class:SendData.AsyncClient.sendList_call	file:
+dataList	src/gen-java/test/SendData.java	/^    public List<String> dataList;$/;"	f	class:SendData.sendList_args
+dataQueue	src/java/MyDistributor.java	/^	private final BlockingQueue<String> dataQueue;$/;"	f	class:MyDistributor	file:
+deepCopy	src/gen-java/test/SendData.java	/^    public sendList_args deepCopy() {$/;"	m	class:SendData.sendList_args
+deepCopy	src/gen-java/test/SendData.java	/^    public sendOne_args deepCopy() {$/;"	m	class:SendData.sendOne_args
+equals	src/gen-java/test/SendData.java	/^    public boolean equals(Object that) {$/;"	m	class:SendData.sendList_args
+equals	src/gen-java/test/SendData.java	/^    public boolean equals(Object that) {$/;"	m	class:SendData.sendOne_args
+equals	src/gen-java/test/SendData.java	/^    public boolean equals(sendList_args that) {$/;"	m	class:SendData.sendList_args
+equals	src/gen-java/test/SendData.java	/^    public boolean equals(sendOne_args that) {$/;"	m	class:SendData.sendOne_args
+fieldForId	src/gen-java/test/SendData.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:SendData.sendList_args
+fieldForId	src/gen-java/test/SendData.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:SendData.sendOne_args
+findByName	src/gen-java/test/SendData.java	/^      public static _Fields findByName(String name) {$/;"	m	class:SendData.sendList_args._Fields
+findByName	src/gen-java/test/SendData.java	/^      public static _Fields findByName(String name) {$/;"	m	class:SendData.sendOne_args._Fields
+findByThriftId	src/gen-java/test/SendData.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:SendData.sendList_args._Fields
+findByThriftId	src/gen-java/test/SendData.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:SendData.sendOne_args._Fields
+findByThriftIdOrThrow	src/gen-java/test/SendData.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:SendData.sendList_args._Fields
+findByThriftIdOrThrow	src/gen-java/test/SendData.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:SendData.sendOne_args._Fields
+getAsyncClient	src/gen-java/test/SendData.java	/^      public AsyncClient getAsyncClient(org.apache.thrift.transport.TNonblockingTransport transport) {$/;"	m	class:SendData.AsyncClient.Factory
+getClient	src/gen-java/test/SendData.java	/^      public Client getClient(org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) {$/;"	m	class:SendData.Client.Factory
+getClient	src/gen-java/test/SendData.java	/^      public Client getClient(org.apache.thrift.protocol.TProtocol prot) {$/;"	m	class:SendData.Client.Factory
+getData	src/gen-java/test/SendData.java	/^    public String getData() {$/;"	m	class:SendData.sendOne_args
+getDataList	src/gen-java/test/SendData.java	/^    public List<String> getDataList() {$/;"	m	class:SendData.sendList_args
+getDataListIterator	src/gen-java/test/SendData.java	/^    public java.util.Iterator<String> getDataListIterator() {$/;"	m	class:SendData.sendList_args
+getDataListSize	src/gen-java/test/SendData.java	/^    public int getDataListSize() {$/;"	m	class:SendData.sendList_args
+getFieldName	src/gen-java/test/SendData.java	/^      public String getFieldName() {$/;"	m	class:SendData.sendList_args._Fields
+getFieldName	src/gen-java/test/SendData.java	/^      public String getFieldName() {$/;"	m	class:SendData.sendOne_args._Fields
+getFieldValue	src/gen-java/test/SendData.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:SendData.sendList_args
+getFieldValue	src/gen-java/test/SendData.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:SendData.sendOne_args
+getInputProtocol	src/gen-java/test/SendData.java	/^    public org.apache.thrift.protocol.TProtocol getInputProtocol()$/;"	m	class:SendData.Client
+getOutputProtocol	src/gen-java/test/SendData.java	/^    public org.apache.thrift.protocol.TProtocol getOutputProtocol()$/;"	m	class:SendData.Client
+getResult	src/gen-java/test/SendData.java	/^      public void getResult() throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendList_call
+getResult	src/gen-java/test/SendData.java	/^      public void getResult() throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendOne_call
+getThriftFieldId	src/gen-java/test/SendData.java	/^      public short getThriftFieldId() {$/;"	m	class:SendData.sendList_args._Fields
+getThriftFieldId	src/gen-java/test/SendData.java	/^      public short getThriftFieldId() {$/;"	m	class:SendData.sendOne_args._Fields
+hashCode	src/gen-java/test/SendData.java	/^    public int hashCode() {$/;"	m	class:SendData.sendList_args
+hashCode	src/gen-java/test/SendData.java	/^    public int hashCode() {$/;"	m	class:SendData.sendOne_args
+iface_	src/gen-java/test/SendData.java	/^    private Iface iface_;$/;"	f	class:SendData.Processor	file:
+iprot_	src/gen-java/test/SendData.java	/^    protected org.apache.thrift.protocol.TProtocol iprot_;$/;"	f	class:SendData.Client
+isSet	src/gen-java/test/SendData.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:SendData.sendList_args
+isSet	src/gen-java/test/SendData.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:SendData.sendOne_args
+isSetData	src/gen-java/test/SendData.java	/^    public boolean isSetData() {$/;"	m	class:SendData.sendOne_args
+isSetDataList	src/gen-java/test/SendData.java	/^    public boolean isSetDataList() {$/;"	m	class:SendData.sendList_args
+linesPerRPC	src/java/JavaClient.java	/^  private static int linesPerRPC = 1;$/;"	f	class:JavaClient	file:
+linesPerRPC	src/java/JavaServer.java	/^  private static int linesPerRPC = 1;$/;"	f	class:JavaServer	file:
+linesPerRPC	src/java/MyDistributor.java	/^  public int linesPerRPC = 1;$/;"	f	class:MyDistributor
+localPort	src/java/JavaServer.java	/^  private static int localPort = 9090;$/;"	f	class:JavaServer	file:
+main	src/java/JavaClient.java	/^  public static void main(String [] args) {$/;"	m	class:JavaClient
+main	src/java/JavaServer.java	/^  public static void main(String [] args) {$/;"	m	class:JavaServer
+metaDataMap	src/gen-java/test/SendData.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:SendData.sendList_args
+metaDataMap	src/gen-java/test/SendData.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:SendData.sendOne_args
+oprot_	src/gen-java/test/SendData.java	/^    protected org.apache.thrift.protocol.TProtocol oprot_;$/;"	f	class:SendData.Client
+perform	src/java/JavaClient.java	/^  private static void perform(SendData.Client client) throws TException {$/;"	m	class:JavaClient	file:
+pollingInterval	src/java/MyReceiver.java	/^  public int pollingInterval = 0; \/\/in ms$/;"	f	class:MyReceiver
+process	src/gen-java/test/SendData.java	/^      public void process(int seqid, org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException$/;"	m	class:SendData.Processor.sendList
+process	src/gen-java/test/SendData.java	/^      public void process(int seqid, org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException$/;"	m	class:SendData.Processor.sendOne
+process	src/gen-java/test/SendData.java	/^      public void process(int seqid, org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException;$/;"	m	interface:SendData.Processor.ProcessFunction
+process	src/gen-java/test/SendData.java	/^    public boolean process(org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException$/;"	m	class:SendData.Processor
+processMap_	src/gen-java/test/SendData.java	/^    protected final HashMap<String,ProcessFunction> processMap_ = new HashMap<String,ProcessFunction>();$/;"	f	class:SendData.Processor
+processor	src/java/MyReceiver.java	/^	private final SendData.Processor processor;$/;"	f	class:MyReceiver	file:
+protocol	src/java/MyReceiver.java	/^	private final TProtocol protocol;$/;"	f	class:MyReceiver	file:
+protocolFactory	src/gen-java/test/SendData.java	/^      private org.apache.thrift.protocol.TProtocolFactory protocolFactory;$/;"	f	class:SendData.AsyncClient.Factory	file:
+queueWaitingTimeout	src/java/MyDistributor.java	/^  public int queueWaitingTimeout = 5000;$/;"	f	class:MyDistributor
+read	src/gen-java/test/SendData.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:SendData.sendList_args
+read	src/gen-java/test/SendData.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:SendData.sendOne_args
+readObject	src/gen-java/test/SendData.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:SendData.sendList_args	file:
+readObject	src/gen-java/test/SendData.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:SendData.sendOne_args	file:
+reconnectInterval	src/java/MyDistributor.java	/^  public int reconnectInterval = 5000; \/\/in ms$/;"	f	class:MyDistributor
+reconnectInterval	src/java/MyReceiver.java	/^  public int reconnectInterval = 5000; \/\/in ms$/;"	f	class:MyReceiver
+remoteHost	src/java/JavaClient.java	/^  private static String remoteHost = "localhost";$/;"	f	class:JavaClient	file:
+remotePort	src/java/JavaClient.java	/^  private static int remotePort = 9090;$/;"	f	class:JavaClient	file:
+run	src/java/MyDistributor.java	/^	public void run() {$/;"	m	class:MyDistributor
+run	src/java/MyReceiver.java	/^	public void run() {$/;"	m	class:MyReceiver
+sendData	src/java/JavaServer.java	/^  public static void sendData() {$/;"	m	class:JavaServer
+sendList	src/gen-java/test/SendData.java	/^    private class sendList implements ProcessFunction {$/;"	c	class:SendData.Processor
+sendList	src/gen-java/test/SendData.java	/^    public void sendList(List<String> dataList) throws org.apache.thrift.TException$/;"	m	class:SendData.Client
+sendList	src/gen-java/test/SendData.java	/^    public void sendList(List<String> dataList) throws org.apache.thrift.TException;$/;"	m	interface:SendData.Iface
+sendList	src/gen-java/test/SendData.java	/^    public void sendList(List<String> dataList, org.apache.thrift.async.AsyncMethodCallback<AsyncClient.sendList_call> resultHandler) throws org.apache.thrift.TException;$/;"	m	interface:SendData.AsyncIface
+sendList	src/gen-java/test/SendData.java	/^    public void sendList(List<String> dataList, org.apache.thrift.async.AsyncMethodCallback<sendList_call> resultHandler) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient
+sendList	src/java/SendDataHandler.java	/^  public void sendList(List<String> dataList) throws TException {$/;"	m	class:SendDataHandler
+sendList_args	src/gen-java/test/SendData.java	/^    public sendList_args($/;"	m	class:SendData.sendList_args
+sendList_args	src/gen-java/test/SendData.java	/^    public sendList_args() {$/;"	m	class:SendData.sendList_args
+sendList_args	src/gen-java/test/SendData.java	/^    public sendList_args(sendList_args other) {$/;"	m	class:SendData.sendList_args
+sendList_args	src/gen-java/test/SendData.java	/^  public static class sendList_args implements org.apache.thrift.TBase<sendList_args, sendList_args._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:SendData
+sendList_call	src/gen-java/test/SendData.java	/^      public sendList_call(List<String> dataList, org.apache.thrift.async.AsyncMethodCallback<sendList_call> resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendList_call
+sendList_call	src/gen-java/test/SendData.java	/^    public static class sendList_call extends org.apache.thrift.async.TAsyncMethodCall {$/;"	c	class:SendData.AsyncClient
+sendOne	src/gen-java/test/SendData.java	/^    private class sendOne implements ProcessFunction {$/;"	c	class:SendData.Processor
+sendOne	src/gen-java/test/SendData.java	/^    public void sendOne(String data) throws org.apache.thrift.TException$/;"	m	class:SendData.Client
+sendOne	src/gen-java/test/SendData.java	/^    public void sendOne(String data) throws org.apache.thrift.TException;$/;"	m	interface:SendData.Iface
+sendOne	src/gen-java/test/SendData.java	/^    public void sendOne(String data, org.apache.thrift.async.AsyncMethodCallback<AsyncClient.sendOne_call> resultHandler) throws org.apache.thrift.TException;$/;"	m	interface:SendData.AsyncIface
+sendOne	src/gen-java/test/SendData.java	/^    public void sendOne(String data, org.apache.thrift.async.AsyncMethodCallback<sendOne_call> resultHandler) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient
+sendOne	src/java/SendDataHandler.java	/^  public void sendOne(String data) throws TException {$/;"	m	class:SendDataHandler
+sendOne_args	src/gen-java/test/SendData.java	/^    public sendOne_args($/;"	m	class:SendData.sendOne_args
+sendOne_args	src/gen-java/test/SendData.java	/^    public sendOne_args() {$/;"	m	class:SendData.sendOne_args
+sendOne_args	src/gen-java/test/SendData.java	/^    public sendOne_args(sendOne_args other) {$/;"	m	class:SendData.sendOne_args
+sendOne_args	src/gen-java/test/SendData.java	/^  public static class sendOne_args implements org.apache.thrift.TBase<sendOne_args, sendOne_args._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:SendData
+sendOne_call	src/gen-java/test/SendData.java	/^      public sendOne_call(String data, org.apache.thrift.async.AsyncMethodCallback<sendOne_call> resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendOne_call
+sendOne_call	src/gen-java/test/SendData.java	/^    public static class sendOne_call extends org.apache.thrift.async.TAsyncMethodCall {$/;"	c	class:SendData.AsyncClient
+send_sendList	src/gen-java/test/SendData.java	/^    public void send_sendList(List<String> dataList) throws org.apache.thrift.TException$/;"	m	class:SendData.Client
+send_sendOne	src/gen-java/test/SendData.java	/^    public void send_sendOne(String data) throws org.apache.thrift.TException$/;"	m	class:SendData.Client
+sendingCounter	src/java/MyDistributor.java	/^  private long sendingCounter = 0;  $/;"	f	class:MyDistributor	file:
+seqid_	src/gen-java/test/SendData.java	/^    protected int seqid_;$/;"	f	class:SendData.Client
+setData	src/gen-java/test/SendData.java	/^    public sendOne_args setData(String data) {$/;"	m	class:SendData.sendOne_args
+setDataIsSet	src/gen-java/test/SendData.java	/^    public void setDataIsSet(boolean value) {$/;"	m	class:SendData.sendOne_args
+setDataList	src/gen-java/test/SendData.java	/^    public sendList_args setDataList(List<String> dataList) {$/;"	m	class:SendData.sendList_args
+setDataListIsSet	src/gen-java/test/SendData.java	/^    public void setDataListIsSet(boolean value) {$/;"	m	class:SendData.sendList_args
+setFieldValue	src/gen-java/test/SendData.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:SendData.sendList_args
+setFieldValue	src/gen-java/test/SendData.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:SendData.sendOne_args
+simpleServer	src/java/JavaServer.java	/^  public static void simpleServer() {$/;"	m	class:JavaServer
+test	src/gen-java/test/SendData.java	/^package test;$/;"	p
+test	src/java/SendDataHandler.java	/^package test;$/;"	p
+toString	src/gen-java/test/SendData.java	/^    public String toString() {$/;"	m	class:SendData.sendList_args
+toString	src/gen-java/test/SendData.java	/^    public String toString() {$/;"	m	class:SendData.sendOne_args
+unsetData	src/gen-java/test/SendData.java	/^    public void unsetData() {$/;"	m	class:SendData.sendOne_args
+unsetDataList	src/gen-java/test/SendData.java	/^    public void unsetDataList() {$/;"	m	class:SendData.sendList_args
+validate	src/gen-java/test/SendData.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:SendData.sendList_args
+validate	src/gen-java/test/SendData.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:SendData.sendOne_args
+write	src/gen-java/test/SendData.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:SendData.sendList_args
+write	src/gen-java/test/SendData.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:SendData.sendOne_args
+writeObject	src/gen-java/test/SendData.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:SendData.sendList_args	file:
+writeObject	src/gen-java/test/SendData.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:SendData.sendOne_args	file:
+write_args	src/gen-java/test/SendData.java	/^      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendList_call
+write_args	src/gen-java/test/SendData.java	/^      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {$/;"	m	class:SendData.AsyncClient.sendOne_call
