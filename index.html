@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Thrift-reuse-conn by yongkun</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Thrift-reuse-conn</h1>
+        <h2>A simple example on how to reuse the thrift connection to transmit data bi-directionally.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/yongkun/thrift-reuse-conn/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/yongkun/thrift-reuse-conn/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/yongkun/thrift-reuse-conn" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="thrift-reuse-conn" class="anchor" href="#thrift-reuse-conn"><span class="octicon octicon-link"></span></a>thrift-reuse-conn</h1>
+
+<p>A simple example on how to reuse the thrift connection to transmit data bi-directionally, inspired by <a href="http://joelpm.com/2009/04/03/thrift-bidirectional-async-rpc.html">http://joelpm.com/2009/04/03/thrift-bidirectional-async-rpc.html</a></p>
+
+<p>Thrift is a cross-language RPC framework. <a href="http://thrift.apache.org">http://thrift.apache.org</a></p>
+
+<p>In this example, Client connect to server and send data, Server will send acknowledgement data via the same connection.</p>
+
+<p>How to:</p>
+
+<ol>
+<li>Download the source;</li>
+<li>type 'ant', you need to have thrift installed;</li>
+</ol><p>Start Server:</p>
+
+<p>./JavaServer.sh</p>
+
+<p>Open another terminal and start Client:</p>
+
+<p>./JavaClient.sh</p>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-53476203-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
